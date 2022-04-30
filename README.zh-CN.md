@@ -3,7 +3,6 @@ MeaNotice 是一个使用于 [Grasscutter](https://github.com/Grasscutters/Grass
 
 [English](./README.md) | 简体中文
 
-![screenshot.png](https://s2.loli.net/2022/04/30/bRxzNtXdy76fYcK.png)
 ## 开始
 ### 安装插件
 1. [下载插件本体](https://github.com/Coooookies/MeaNotice/releases)
