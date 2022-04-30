@@ -1,4 +1,4 @@
-# MeaNotice - Grasscutter Regular Notice Plugins
+# MeaNotice - Grasscutter Regular Notice Plugin
 MeaNotice is a plugin of [Grasscutter](https://github.com/Grasscutters/Grasscutter), you can use this plugin to publish notifications in-game regularly.
 
 English | [简体中文](./README.zh-CN.md)
