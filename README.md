@@ -1,11 +1,13 @@
 # MeaNotice - Grasscutter Regular Notice Plugins
 MeaNotice is a plugin of [Grasscutter](https://github.com/Grasscutters/Grasscutter), you can use this plugin to publish notifications in-game regularly.
 
+English | [简体中文](./README.zh-CN.md)
+
 ## Setup
 ### Install
 1. [Download Plugin Jar](https://github.com/Coooookies/MeaNotice/releases).
-2. Put plugins into plugins folder of your grasscutter server.
-3. Start your server, then the plugin will create a folder in your server folder root.
+2. Put plugins into `plugins` folder of your grasscutter server.
+3. Start your server, then the plugin will create `MeaNotice` folder in your server folder root.
 ```
 Root
 │   lib
