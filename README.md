@@ -2,7 +2,7 @@
 MeaNotice is a plugin of [Grasscutter](https://github.com/Grasscutters/Grasscutter), you can use this plugin to publish notifications in-game regularly.
 
 English | [简体中文](./README.zh-CN.md)
-
+![screenshot.png](https://s2.loli.net/2022/04/30/bRxzNtXdy76fYcK.png)
 ## Setup
 ### Install
 1. [Download Plugin Jar](https://github.com/Coooookies/MeaNotice/releases).

@@ -2,7 +2,7 @@
 MeaNotice 是一个使用于 [Grasscutter](https://github.com/Grasscutters/Grasscutter) 的插件，你可以使用这个插件在游戏内发送定时公告。
 
 [English](./README.md) | 简体中文
-
+![screenshot.png](https://s2.loli.net/2022/04/30/bRxzNtXdy76fYcK.png)
 ## 开始
 ### 安装插件
 1. [下载插件本体](https://github.com/Coooookies/MeaNotice/releases)
