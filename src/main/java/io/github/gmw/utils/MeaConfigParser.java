@@ -11,7 +11,7 @@ import java.util.Objects;
 
 public final class MeaConfigParser {
     private MeaConfig config;
-    private final File configFile = new File( "./MeaNotice/config.json");
+    private final File configFile = new File( "./plugins/MeaNotice/config.json");
     private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     public MeaConfigParser() {

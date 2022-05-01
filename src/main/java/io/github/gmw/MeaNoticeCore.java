@@ -20,20 +20,20 @@ public class MeaNoticeCore extends Plugin {
         this.config = new MeaConfigParser();
         this.notice = new MeaNotice();
 
-        notice.setNotice(config.getConfig().notices);
-        notice.enable(config.getConfig().interval);
-
         Grasscutter.getLogger().info("[MeaNoticeCore] Loaded!");
     }
 
     @Override
     public void onEnable() {
         CommandMap.getInstance().registerCommand("meanotice", new MeaCommand());
+        notice.setNotice(config.getConfig().notices);
+        notice.enable(config.getConfig().interval);
     }
 
     @Override
     public void onDisable() {
         CommandMap.getInstance().unregisterCommand("meanotice");
+        notice.disable();
     }
 
     public static MeaNoticeCore getInstance() {
