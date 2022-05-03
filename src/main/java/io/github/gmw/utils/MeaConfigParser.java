@@ -11,7 +11,8 @@ import java.util.Objects;
 
 public final class MeaConfigParser {
     private MeaConfig config;
-    private final File configFile = new File( "./plugins/MeaNotice/config.json");
+    private final String configPath = Grasscutter.getConfig().PLUGINS_FOLDER + "MeaNotice";
+    private final File configFile = new File( this.configPath + "/config.json");
     private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     public MeaConfigParser() {
@@ -42,9 +43,9 @@ public final class MeaConfigParser {
 
     public boolean saveConfig() {
         // 如果文件夹不存在或者文件夹为空又或者不是文件夹 ，则创建文件夹;
-        File dir = new File("./MeaNotice");
+        File dir = new File(this.configPath);
 
-        if (!dir.exists() || Objects.requireNonNull(dir.list()).length == 0 || !dir.isDirectory()) {
+        if (!dir.exists() || !dir.isDirectory()) {
             if (!new java.io.File(String.valueOf(dir)).mkdirs()) return false;
         }
 
