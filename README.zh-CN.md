@@ -7,16 +7,16 @@ MeaNotice 是一个使用于 [Grasscutter](https://github.com/Grasscutters/Grass
 ### 安装插件
 1. [下载插件本体](https://github.com/Coooookies/MeaNotice/releases)
 2. 将插件本体放置在 `服务器根目录/plugins` 目录下
-3. 启动服务器，插件将会在你的服务器根目录下创建一个 `MeaNotice` 文件夹.
+3. 启动服务器，插件将会在你的服务器插件目录下创建一个 `MeaNotice` 文件夹.
 ```
 Root
 │   lib
 │   keys
 │   resources
-│   plugins
 │   ...
-└───MeaNotice
-    └───config.json
+└───plugins
+    └───MeaNotice
+        └───config.json
 ```
 
 ### 配置
