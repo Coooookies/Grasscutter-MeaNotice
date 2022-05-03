@@ -15,6 +15,7 @@ Root
 │   resources
 │   ...
 └───plugins
+    │   ...
     └───MeaNotice
         └───config.json
 ```
