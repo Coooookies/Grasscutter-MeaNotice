@@ -13,7 +13,7 @@ import java.util.*;
 
 public class MeaCommand implements CommandHandler {
     @Override
-    public void execute(Player sender, List<String> args) {
+    public void execute(Player sender, Player targetPlayer, List<String> args) {
         switch (args.size()) {
             default: // *No args*
                 CommandHandler.sendMessage(sender, "Usage: meanotice reload");
