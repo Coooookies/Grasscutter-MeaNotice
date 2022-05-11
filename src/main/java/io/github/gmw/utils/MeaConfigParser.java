@@ -11,7 +11,7 @@ import java.util.Objects;
 
 public final class MeaConfigParser {
     private MeaConfig config;
-    private final String configPath = Grasscutter.getConfig().PLUGINS_FOLDER + "MeaNotice";
+    private final String configPath = Grasscutter.getConfig().folderStructure.plugins + "MeaNotice";
     private final File configFile = new File( this.configPath + "/config.json");
     private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
